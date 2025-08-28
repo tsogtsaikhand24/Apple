@@ -1,0 +1,345 @@
+/* overlay */
+.overlay1 {
+  width: 390px;
+  height: 48px;
+  display: flex;
+  justify-content: space-between;
+  background: rgba(245, 245, 247, 0.8);
+}
+.iconapple1 {
+  width: 48px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.overlplay2 {
+  width: 144px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+/* overlay end */
+/* text we are */
+.textdiv1 {
+  width: 390px;
+  height: 73px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.textweare {
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+  padding: 18px;
+}
+/* text we are end */
+/* apple image */
+.applediv {
+  width: 390px;
+  height: 500px;
+  background-image: url("./Figure@2x.png");
+  background-size: cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+}
+.appledotor {
+  width: 241px;
+  height: 114px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 36px;
+  flex-direction: column;
+  gap: 16px;
+}
+.promax {
+  width: 241;
+  height: 62px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.Promaxfont {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+}
+.hellofont {
+  color: #f5f5f7;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 120%; /* 21.6px */
+}
+.learnbuy {
+  width: 241px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.learnbutton {
+  width: 107px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+}
+.learnbuttonback {
+  background: #0071e3;
+}
+.learnbuttonfont {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+.learnbuttoncolor {
+  color: #fff;
+}
+.buybutton {
+  width: 66px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+}
+.buybuttunsolid {
+  border: 1px solid #2997ff;
+}
+.buybuttonfont {
+  color: #2997ff;
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 142.857% */
+}
+/* apple image end */
+/* iphone tsenher */
+.tseheriphoneback {
+  width: 390px;
+  height: 500px;
+  display: flex;
+  justify-content: center;
+  background-size: cover;
+  background-image: url(./tseher\ iphone.png);
+}
+.appledotor1 {
+  width: 241px;
+  height: 114px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 36px;
+  flex-direction: column;
+  gap: 16px;
+}
+.learnbuttonback1 {
+  background: #f5f5f7;
+}
+.learnbuttoncolor1 {
+  color: #000000;
+}
+.buybuttoncolor1 {
+  color: #ffffff;
+}
+.buybuttunsolid1 {
+  border: 1px solid #fff;
+}
+/* ihpone tsenher end */
+/* ipad air */
+.ipaddiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./ipad.png);
+  background-size: cover;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+}
+.ipaddotor {
+  width: 390px;
+  height: 134px;
+  padding-top: 36px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.ipadtextwh {
+  width: 180px;
+  height: 42px;
+  width: 180px;
+  height: 41.86px;
+  aspect-ratio: 43/10;
+}
+.twosizefont {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 32px; /* 177.778% */
+  padding-top: 8px;
+}
+.classipadlearn {
+  padding-top: 16px;
+}
+.helloapplefont {
+  text-align: center;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 18px; /* 128.571% */
+  background: linear-gradient(
+    90deg,
+    #0090f7 0%,
+    #ba62fc 33.33%,
+    #f2416b 66.67%,
+    #f55600 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  padding-bottom: 36px;
+}
+/* ipad air end */
+/* air pods4 */
+.airpodsdiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./airpods.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.aipodsdotor {
+  width: 241px;
+  height: 147px;
+  padding-bottom: 74px;
+}
+.airpodsdoto1 {
+  width: 241px;
+  height: 91px;
+  gap: 16px;
+  display: flex;
+  flex-direction: column;
+}
+.airpods4font {
+  color: #f5f5f7;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.icontextfont {
+  color: #f5f5f7;
+  text-align: center;
+  leading-trim: both;
+  text-edge: cap;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+/* airpods4 end */
+/* iwatch */
+.iwatchdiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./iwatch.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.iwatchdivdotor {
+  width: 235px;
+  height: 135px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 16px;
+}
+.vectoriwatch {
+  width: 235px;
+  height: 83px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 46px;
+}
+.vector {
+  width: 22px;
+  height: 27px;
+  fill: rgba(0, 0, 0, 0.8);
+}
+.watchfont {
+  width: 121px;
+  height: 34px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.seriesfont {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 13px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  letter-spacing: 2px;
+}
+.thinfont {
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 25px; /* 138.889% */
+}
+.spandiv {
+  width: 152px;
+  height: 54px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
