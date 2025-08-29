@@ -1,3 +1,15 @@
+.pagegap {
+  gap: 10px;
+}
+* {
+  margin: 0;
+}
+p {
+  margin: 0;
+}
+h3 {
+  margin: 0;
+}
 /* overlay */
 .overlay1 {
   width: 390px;
@@ -134,6 +146,9 @@
   font-style: normal;
   font-weight: 400;
   line-height: 20px; /* 142.857% */
+}
+@media (min-width: 768px) {
+  .link1;
 }
 /* apple image end */
 /* iphone tsenher */
@@ -343,3 +358,218 @@
   justify-content: center;
   align-items: center;
 }
+/* iwatch end */
+/* MacBook Air */
+.imacdiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./macorg.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.imacdivdotor {
+  width: 257px;
+  height: 115px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
+  padding-top: 36px;
+}
+.textimac {
+  width: 257px;
+  height: 63px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+}
+.macfont {
+  width: 257px;
+  height: 37px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 20px; /* 66.667% */
+}
+.leanfont {
+  width: 277px;
+  height: 23px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+/* Macair end */
+/* small bus */
+.smallbusdiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./smallbus.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.smallbusdotor {
+  width: 257px;
+  height: 168px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 46px;
+  gap: 4px;
+}
+.appleforfont {
+  width: 257px;
+  height: 72px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+}
+.hardwarefont {
+  width: 257px;
+  height: 40px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+.Learnbuttonsolo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 12px;
+}
+/* small bus end */
+/*  carrier deals */
+.carrierdealsdiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./carrier.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+}
+.carrierdivdotor {
+  width: 314px;
+  height: 162px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-bottom: 47px;
+  gap: 4px;
+}
+.carriertextsize {
+  width: 314px;
+  height: 36px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: "Helvetica Neue";
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 36px; /* 120% */
+}
+.getupfont {
+  width: 314px;
+  height: 60px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+.learnbutton1 {
+  width: 126px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+}
+/* carrier deals end */
+/* thunder  */
+.thunderdiv {
+  width: 390px;
+  height: 500px;
+  background-image: url(./thunder.png);
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+.thunderdivdotor {
+  width: 285px;
+  height: 130px;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 51px;
+}
+.vectordiv1 {
+  width: 152px;
+  height: 34px;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: flex-start;
+}
+.tradeinfont {
+  width: 121px;
+  height: 34px;
+  color: #000;
+  text-align: center;
+  font-family: Inter;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+}
+.vectorsize1 {
+  width: 22px;
+  height: 27px;
+}
+.creditclass {
+  width: 285px;
+  height: 40px;
+  color: #1d1d1f;
+  text-align: center;
+  font-family: Inter;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px; /* 111.111% */
+}
+.learnbutton2 {
+  width: 150px;
+  height: 36px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 999px;
+}
+/* thunder end */
+/* slideshow CONTAI */
