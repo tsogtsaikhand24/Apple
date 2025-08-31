@@ -148,7 +148,22 @@ h3 {
   line-height: 20px; /* 142.857% */
 }
 @media (min-width: 768px) {
-  .link1;
+  .applediv {
+    width: 100vw;
+    height: 100vh;
+    background-image: url(./horizontaliphone.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .overlay1 {
+    width: 768px;
+    height: 60px;
+  }
+  .textdiv {
+    width: 768px;
+    height: 60px;
+  }
 }
 /* apple image end */
 /* iphone tsenher */
@@ -573,3 +588,40 @@ h3 {
 }
 /* thunder end */
 /* slideshow CONTAI */
+.scroll-container {
+  width: 100vw;
+  overflow: scroll;
+}
+.scroll {
+  width: fit-content;
+  display: flex;
+  flex-direction: row;
+}
+.sizescroll {
+  width: 274px;
+  height: 495px;
+}
+.scrolldiv {
+  background-image: url(./Link.png);
+}
+.scrolldiv1 {
+  background-image: url(./Link-1.png);
+}
+.scrolldiv2 {
+  background-image: url(./Link-2.png);
+}
+.scrolldiv3 {
+  background-image: url(./Link-3.png);
+}
+.scrolldiv4 {
+  background-image: url(./Link-4.png);
+}
+.scrolldiv5 {
+  background-image: url(./Link-5.png);
+}
+.scrolldiv6 {
+  background-image: url(./Link-6.png);
+}
+.scrolldiv7 {
+  background-image: url(./Link-7.png);
+}
