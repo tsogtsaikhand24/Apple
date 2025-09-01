@@ -12,7 +12,7 @@ h3 {
 }
 /* overlay */
 .overlay1 {
-  width: 390px;
+  width: 100%;
   height: 48px;
   display: flex;
   justify-content: space-between;
@@ -35,7 +35,7 @@ h3 {
 /* overlay end */
 /* text we are */
 .textdiv1 {
-  width: 390px;
+  width: 3;
   height: 73px;
   display: flex;
   align-items: center;
@@ -54,7 +54,7 @@ h3 {
 /* text we are end */
 /* apple image */
 .applediv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url("./Figure@2x.png");
   background-size: cover;
@@ -147,28 +147,10 @@ h3 {
   font-weight: 400;
   line-height: 20px; /* 142.857% */
 }
-@media (min-width: 768px) {
-  .applediv {
-    width: 100vw;
-    height: 100vh;
-    background-image: url(./horizontaliphone.png);
-    display: flex;
-    justify-content: center;
-    align-items: flex-start;
-  }
-  .overlay1 {
-    width: 768px;
-    height: 60px;
-  }
-  .textdiv {
-    width: 768px;
-    height: 60px;
-  }
-}
 /* apple image end */
 /* iphone tsenher */
 .tseheriphoneback {
-  width: 390px;
+  width: 100%;
   height: 500px;
   display: flex;
   justify-content: center;
@@ -200,7 +182,7 @@ h3 {
 /* ihpone tsenher end */
 /* ipad air */
 .ipaddiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./ipad.png);
   background-size: cover;
@@ -210,7 +192,7 @@ h3 {
   flex-direction: column;
 }
 .ipaddotor {
-  width: 390px;
+  width: 100%;
   height: 134px;
   padding-top: 36px;
   display: flex;
@@ -260,7 +242,7 @@ h3 {
 /* ipad air end */
 /* air pods4 */
 .airpodsdiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./airpods.png);
   background-size: cover;
@@ -305,7 +287,7 @@ h3 {
 /* airpods4 end */
 /* iwatch */
 .iwatchdiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./iwatch.png);
   background-size: cover;
@@ -376,7 +358,7 @@ h3 {
 /* iwatch end */
 /* MacBook Air */
 .imacdiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./macorg.png);
   background-size: cover;
@@ -427,7 +409,7 @@ h3 {
 /* Macair end */
 /* small bus */
 .smallbusdiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./smallbus.png);
   background-size: cover;
@@ -476,7 +458,7 @@ h3 {
 /* small bus end */
 /*  carrier deals */
 .carrierdealsdiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./carrier.png);
   background-size: cover;
@@ -527,7 +509,7 @@ h3 {
 /* carrier deals end */
 /* thunder  */
 .thunderdiv {
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-image: url(./thunder.png);
   background-size: cover;
@@ -624,4 +606,59 @@ h3 {
 }
 .scrolldiv7 {
   background-image: url(./Link-7.png);
+}
+.airpodsiwatch {
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+@media (min-width: 768px) and (max-width: 1024px) {
+  .applediv {
+    height: 100vh;
+    background-image: url(./horizontaliphone.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .appledotor {
+    padding: 58px;
+    width: 405px;
+    height: 156px;
+  }
+  .overlay1 {
+    height: 60px;
+  }
+  .textdiv {
+    height: 60px;
+  }
+  .tseheriphoneback {
+    height: 100vh;
+    background-image: url(./iphonetsenherhorizontal.png);
+  }
+  .appledotor1 {
+    padding: 58px;
+    width: 405px;
+    height: 156px;
+  }
+  .ipaddiv {
+    height: 100vh;
+    background-image: url(./ipadtable.png);
+  }
+  .ipaddotor {
+    padding: 58px;
+    width: 405px;
+    height: 139px;
+  }
+  .airpodsiwatch {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .airpodsdiv,
+  .iwatchdiv {
+    width: 48%;
+  }
 }
