@@ -1,6 +1,3 @@
-.pagegap {
-  gap: 10px;
-}
 * {
   margin: 0;
 }
@@ -58,6 +55,8 @@ h3 {
   height: 500px;
   background-image: url("./Figure@2x.png");
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   align-items: flex-end;
   justify-content: center;
@@ -155,6 +154,8 @@ h3 {
   display: flex;
   justify-content: center;
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   background-image: url(./tseher\ iphone.png);
 }
 .appledotor1 {
@@ -186,6 +187,8 @@ h3 {
   height: 500px;
   background-image: url(./ipad.png);
   background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -585,6 +588,7 @@ h3 {
 }
 .scrolldiv {
   background-image: url(./Link.png);
+  background-repeat: no-repeat;
 }
 .scrolldiv1 {
   background-image: url(./Link-1.png);
@@ -607,15 +611,18 @@ h3 {
 .scrolldiv7 {
   background-image: url(./Link-7.png);
 }
-.airpodsiwatch {
-  height: 250px;
-  display: flex;
-  flex-direction: column;
-  flex-wrap: wrap;
+.airpodiwatch {
+  display: grid;
+  grid-template-columns: 1fr;
 }
+.applehamilion {
+  display: none;
+}
+
 @media (min-width: 768px) and (max-width: 1024px) {
   .applediv {
-    height: 100vh;
+    width: 100%;
+    height: 650px;
     background-image: url(./horizontaliphone.png);
     background-size: cover;
     display: flex;
@@ -634,8 +641,13 @@ h3 {
     height: 60px;
   }
   .tseheriphoneback {
-    height: 100vh;
+    width: 100%;
+    height: 650px;
     background-image: url(./iphonetsenherhorizontal.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
   }
   .appledotor1 {
     padding: 58px;
@@ -643,22 +655,268 @@ h3 {
     height: 156px;
   }
   .ipaddiv {
-    height: 100vh;
+    width: 100%;
+    height: 650px;
     background-image: url(./ipadtable.png);
+    background-size: cover;
   }
   .ipaddotor {
     padding: 58px;
     width: 405px;
     height: 139px;
   }
-  .airpodsiwatch {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-around;
-    align-items: center;
+  .airpodiwatch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
   }
+
   .airpodsdiv,
   .iwatchdiv {
-    width: 48%;
+    width: 100%;
+  }
+  .macbooksmallbus {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .imacdiv,
+  .smallbusdiv {
+    width: 100%;
+  }
+  .carrierthunder {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .carrierdealsdiv,
+  .thunderdiv {
+    width: 100%;
+  }
+  /* scroll */
+  .scroll-dood {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  .scroll-container {
+    display: none;
+  }
+  .sizescroll1 {
+    width: 689px;
+    height: 368px;
+    scroll-snap-align: start; /* Snap to the start of each item */
+    padding: 1rem;
+    color: white;
+  }
+
+  .sizescroll1:focus {
+    outline: 4px solid #2c2b2b; /* Highlight the focused item */
+    transform: scale(1.05); /* Add a subtle scaling effect */
+    transition: all 0.2s ease-in-out;
+  }
+  .scrolldood1 {
+    background-image: url(./Link-8.png);
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+  }
+  .scroll22 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .zuragdotor {
+    width: 520px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    gap: 16px;
+  }
+  .steamnow {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fontsss {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-align: center;
+  }
+  .fontdrama {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 117.647% */
+  }
+  /* hamgiindood scroll */
+  .hamgindoodtal {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  .doodtdotorh {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .sizescroll333 {
+    width: 286px;
+    height: 194px;
+    scroll-snap-align: start; /* Snap to the start of each item */
+    padding: 1rem;
+    color: white;
+  }
+  .sizescroll333:focus {
+    outline: 4px solid #2c2b2b; /* Highlight the focused item */
+    transform: scale(1.05); /* Add a subtle scaling effect */
+    transition: all 0.2s ease-in-out;
+  }
+  .scrooldood,
+  .scrooldood1,
+  .scrooldood2 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .dotrindotor {
+    width: 286px;
+    height: 131px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-end;
+    padding: 15px;
+  }
+  .laoficalfont {
+    color: #1d1d1f;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
+  }
+  .ungu {
+    background-color: purple;
+  }
+  .ungu1 {
+    background-color: darkgreen;
+  }
+  s .ungu2 {
+    background-color: black;
+  }
+  .applehamilion {
+    display: none;
+  }
+}
+@media (min-width: 1024px) {
+  .applediv {
+    width: 100%;
+    height: 692px;
+    background-image: url(./promaxdesk.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .tseheriphoneback {
+    width: 100%;
+    height: 650px;
+    background-image: url(/tsenherdesk.png);
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .applehamilion {
+    width: 100%;
+    height: 692px;
+    background-image: url(./applehameliom.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .hamiliondotor {
+    width: 405px;
+    height: 165px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 82px;
+    gap: 16px;
+  }
+  .dotorhtext {
+    width: 405px;
+    height: 105px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 12px;
+  }
+  .giftfont {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 52px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 60px; /* 115.385% */
+    letter-spacing: -0.28px;
+  }
+  .makefont {
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; /* 133.333% */
+  }
+  .shopgifts {
+    width: 114px;
+    height: 44px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
+    background: #0071e3;
+  }
+  .shopgiftsfont {
+    color: #fff;
+    text-align: center;
+    font-family: Inter;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 125% */
+    letter-spacing: -0.374px;
+  }
+  .airpodiwatch {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .airpodsdiv,
+  .iwatchdiv {
+    width: 100%;
   }
 }
