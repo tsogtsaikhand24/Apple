@@ -629,7 +629,9 @@ h3 {
 .imacdiv3,
 .iwatchdivdotor3,
 .thunderdivdotor3,
-.thunderdivdotor4 {
+.thunderdivdotor4,
+.scroll222,
+.doodtdotorh3 {
   display: none;
 }
 @media (min-width: 768px) and (max-width: 1024px) {
@@ -838,7 +840,9 @@ h3 {
   .imacdiv3,
   .iwatchdivdotor3,
   .thunderdivdotor3,
-  .thunderdivdotor4 {
+  .thunderdivdotor4,
+  .scroll222,
+  .doodtdotorh3 {
     display: none;
   }
 }
@@ -1140,5 +1144,165 @@ h3 {
     justify-content: center;
     align-items: center;
     border-radius: 999px;
+  }
+  /* scroll */
+  .scroll-dood3 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  .scroll222 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+  }
+  .scrolldood12 {
+    background-image: url(./fly\ me\ to\ moon.png);
+    background-size: cover;
+    display: flex;
+    justify-content: start;
+    align-items: flex-end;
+  }
+  .zuragdotor1 {
+    width: 530px;
+    height: 40px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px;
+    gap: 16px;
+  }
+  .steamnow2 {
+    width: 150px;
+    height: 40px;
+    border-radius: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .fontsss3 {
+    color: #000;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 142.857% */
+    text-align: center;
+  }
+  .sizescroll12 {
+    width: 1250px;
+    height: 668px;
+    scroll-snap-align: start; /* Snap to the start of each item */
+    padding: 1rem;
+    color: white;
+  }
+
+  .sizescroll1:focus {
+    outline: 4px solid #2c2b2b; /* Highlight the focused item */
+    transform: scale(1.05); /* Add a subtle scaling effect */
+    transition: all 0.2s ease-in-out;
+  }
+
+  .fontdrama3 {
+    color: #fff;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.6);
+    font-family: Inter;
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 20px; /* 117.647% */
+  }
+  /* dood scroll */
+  .hamgindoodtal3 {
+    display: flex;
+    overflow-x: scroll;
+    scroll-snap-type: x mandatory;
+  }
+  .doodtdotorh3 {
+    display: flex;
+    flex-direction: row;
+    gap: 16px;
+    padding: 16px;
+  }
+  .sizescroll333 {
+    width: 286px;
+    height: 194px;
+    scroll-snap-align: start; /* Snap to the start of each item */
+    padding: 1rem;
+    color: white;
+  }
+  .sizescroll334:focus {
+    outline: 4px solid #2c2b2b; /* Highlight the focused item */
+    transform: scale(1.05); /* Add a subtle scaling effect */
+    transition: all 0.2s ease-in-out;
+  }
+  .scrooldood13,
+  .scrooldood25,
+  .scrooldood26 {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+  .dotrindotor {
+    width: 417px;
+    height: 236px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end;
+    padding: 15px;
+  }
+  .laoficalfont {
+    color: #1d1d1f;
+    font-family: "Helvetica Neue";
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
+  }
+  .ungu {
+    background-image: url(./firstdood.png);
+    background-size: cover;
+  }
+  .improvefont {
+    width: 223px;
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
+  }
+  .ungu1 {
+    background: #1b2632;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+  }
+  .ungu1font {
+    color: #fff;
+    font-family: Inter;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 18px; /* 128.571% */
+    letter-spacing: -0.224px;
+  }
+  .ungu2 {
+    background-image: url(./celtics.png);
+    background-size: cover;
+  }
+  .ungu3 {
+    background-image: url(./gym.png);
+    background-size: cover;
+  }
+  .ungu4 {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    background-color: #ebb799;
   }
 }
