@@ -182,6 +182,13 @@ h3 {
 }
 /* ihpone tsenher end */
 /* ipad air */
+.ipadiwatch {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+.airpodsdoto2 {
+  display: none;
+}
 .ipaddiv {
   width: 100%;
   height: 500px;
@@ -615,10 +622,16 @@ h3 {
   display: grid;
   grid-template-columns: 1fr;
 }
-.applehamilion {
+.applehamilion,
+.scroll-container,
+.hamgindoodtal,
+.scroll-dood,
+.imacdiv3,
+.iwatchdivdotor3,
+.thunderdivdotor3,
+.thunderdivdotor4 {
   display: none;
 }
-
 @media (min-width: 768px) and (max-width: 1024px) {
   .applediv {
     width: 100%;
@@ -821,7 +834,11 @@ h3 {
   s .ungu2 {
     background-color: black;
   }
-  .applehamilion {
+  .applehamilion,
+  .imacdiv3,
+  .iwatchdivdotor3,
+  .thunderdivdotor3,
+  .thunderdivdotor4 {
     display: none;
   }
 }
@@ -838,7 +855,7 @@ h3 {
   .tseheriphoneback {
     width: 100%;
     height: 650px;
-    background-image: url(/tsenherdesk.png);
+    background-image: url(./tsenherdesk.png);
     background-size: cover;
     display: flex;
     justify-content: center;
@@ -918,5 +935,210 @@ h3 {
   .airpodsdiv,
   .iwatchdiv {
     width: 100%;
+  }
+  .ipadiwatch {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .ipaddiv {
+    background-image: url(./ipaddesk.png);
+    background-size: cover;
+    background-position: center;
+  }
+  .airpodsdesk {
+    width: 100%;
+    height: 100%;
+    background-image: url(./airpodsdesk.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+  }
+  .aipodsdotor1 {
+    width: 370px;
+    height: 147px;
+    padding-bottom: 58px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .airpodsdoto2 {
+    width: 370px;
+    height: 91px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+  .airpods4font1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 36px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 44px; /* 122.222% */
+  }
+  .icontextfont1 {
+    color: #f5f5f7;
+    text-align: center;
+    font-family: Inter;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px; /* 138.889% */
+  }
+  .learnbuy1 {
+    width: 241px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .airpodiwatch,
+  .macbooksmallbus,
+  .carrierdealsdiv,
+  .thunderdiv,
+  .scroll-container,
+  .hamgindoodtal,
+  .scroll-dood {
+    display: none;
+  }
+  /* iwatchmackbook */
+  .iwatchmackbook {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .iwatchdiv3 {
+    width: 100%;
+    height: 500px;
+    background-image: url(./deskiwatch.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .iwatchdivdotor3 {
+    width: 235px;
+    height: 135px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 16px;
+  }
+  .vectoriwatch3 {
+    width: 235px;
+    height: 83px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    padding-top: 46px;
+  }
+  .imacdiv3 {
+    width: 100%;
+    height: 500px;
+    background-image: url(./deskmack.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .imacdivdotor3 {
+    width: 257px;
+    height: 115px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 16px;
+    padding-top: 36px;
+  }
+  /* thunder */
+  .tadeincard {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+    padding: 10px;
+  }
+  .thunderdiv3 {
+    width: 100%;
+    height: 500px;
+    background-image: url(./deskthuner.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .thunderdivdotor3 {
+    width: 285px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 51px;
+  }
+  .thunderdiv4 {
+    width: 100%;
+    height: 500px;
+    background-image: url(./carddesk.png);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .thunderdivdotor4 {
+    width: 285px;
+    height: 130px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding-top: 51px;
+  }
+  .vectordiv3 {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+  }
+  .tradeinfont4 {
+    width: 76px;
+    height: 39px;
+    color: #000;
+    text-align: center;
+    font-family: Inter;
+    font-size: 32px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+  }
+  .learnbuy3 {
+    width: 241px;
+    height: 36px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 16px;
+  }
+  .buybutton3 {
+    width: 112px;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 999px;
   }
 }
