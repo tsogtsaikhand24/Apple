@@ -1,0 +1,526 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Apple</title>
+    <link rel="stylesheet" href="./index.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+      rel="stylesheet"
+    />
+    <script>
+      let slideIndex = 1;
+      showSlides(slideIndex);
+
+      function plusSlides(n) {
+        showSlides((slideIndex += n));
+      }
+
+      function currentSlide(n) {
+        showSlides((slideIndex = n));
+      }
+
+      function showSlides(n) {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        if (n > slides.length) {
+          slideIndex = 1;
+        }
+        if (n < 1) {
+          slideIndex = slides.length;
+        }
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+      }
+    </script>
+    <script>
+      let slideIndex2 = 0;
+      showSlides();
+
+      function showSlides() {
+        let i;
+        let slides = document.getElementsByClassName("mySlides");
+        let dots = document.getElementsByClassName("dot");
+        for (i = 0; i < slides.length; i++) {
+          slides[i].style.display = "none";
+        }
+        slideIndex++;
+        if (slideIndex > slides.length) {
+          slideIndex = 1;
+        }
+        for (i = 0; i < dots.length; i++) {
+          dots[i].className = dots[i].className.replace(" active", "");
+        }
+        slides[slideIndex - 1].style.display = "block";
+        dots[slideIndex - 1].className += " active";
+        setTimeout(showSlides, 2000); // Change image every 2 seconds
+      }
+    </script>
+  </head>
+  <body class="*" style="background-color: #f5f5f7">
+    <!-- Overlay -->
+    <div class="overlay">
+      <img class="icon3" src="/SVG.svg" alt="" />
+      <div class="iconDiv">
+        <img class="icon" src="/SVG (1).svg" alt="" />
+        <img class="icon" src="/SVG (2).svg" alt="" />
+        <img class="icon2" src="/SVG (3).svg" alt="" />
+      </div>
+    </div>
+    <div class="FRAME">
+      <div class="header font text1">
+        <img src="./SVG.svg" alt="" />
+        <a class="portal" href="./index2.html"><p>Store</p></a>
+        <p>Mac</p>
+        <p>iPad</p>
+        <p>iPhone</p>
+        <p>Watch</p>
+        <p>Vision</p>
+        <p>Airpods</p>
+        <p>TV & Home</p>
+        <p>Entertainment</p>
+        <p>Accessories</p>
+        <p>Support</p>
+        <img src="./SVG (1).svg" alt="" />
+        <img src="./SVG (2).svg" alt="" />
+      </div>
+    </div>
+    <!-- Container -->
+    <div class="container">
+      <p class="text1 font">
+        We’re donating $5 to the Global Fund for every purchase made with
+        Apple Pay at Apple. Through 12/8.
+      </p>
+    </div>
+    <!-- Link 1 -->
+    <div class="link1">
+      <div class="frame3">
+        <div class="frame1">
+          <p class="text2 font">iPhone 16 Pro</p>
+          <p class="text3 font">Hello, Apple Intelligence</p>
+        </div>
+        <div class="frame2">
+          <p class="font text4">Learn more</p>
+          <a class="portal2" href="./index2.html"
+            ><p class="font text5">Buy</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Link 2 -->
+    <div class="link2">
+      <div class="frame4">
+        <div class="frame1">
+          <p class="text2 font">iPhone 16</p>
+          <p class="text3 font">Hello, Apple Intelligence</p>
+        </div>
+        <div class="frame2">
+          <p class="font text6">Learn more</p>
+          <a class="portal2" href="./index2.html"
+            ><p class="font text7">Buy</p></a
+          >
+        </div>
+      </div>
+    </div>
+    <!-- Link 3 -->
+    <div class="link3">
+      <div class="frame7">
+        <div id="frame6_0">
+          <div class="frame5">
+            <img
+              class="img1"
+              src="/0f41c45d48fa3ab5df93eaee5f9abdd925bc4033.png"
+              alt=""
+            />
+            <div class="frame1">
+              <p class="text8 font">Two sizes. Faster chip. Does it all.</p>
+            </div>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+            <a class="portal2" href="./index2.html"
+              ><p class="font text5">Buy</p></a
+            >
+          </div>
+        </div>
+        <div class="frame4 frame8-down position1">
+          <div class="frame1">
+            <div class="frame10">
+              <p class="text10 font">Gift magic.</p>
+            </div>
+            <p class="text1 font">Make their holiday wish come true.</p>
+          </div>
+          <div class="frame2">
+            <a class="portal2" href="./index2.html"
+              ><p class="font text4">Shop gifts</p></a
+            >
+          </div>
+        </div>
+        <p class="text9 font">Hello, Apple Intelligence</p>
+      </div>
+    </div>
+    <!-- Link 4 -->
+    <div class="containerlap">
+      <div class="link4 link0">
+        <div class="frame8 frame8-up position4">
+          <div class="frame1">
+            <p class="text2 font">AirPods 4</p>
+            <p class="text3 font">
+              Iconic. Now supersonic. Available with Active Noise Cancellation.2
+            </p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+            <a class="portal2" href="./index2.html"
+              ><p class="font text5">Buy</p></a
+            >
+          </div>
+        </div>
+        <div class="frame8 frame8-down position2">
+          <div class="frame1">
+            <p class="text2 font">AirPods Pro 2</p>
+            <p class="text3 font">Now with a Hearing Aid feature.2</p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+            <a class="portal2" href="./index2.html"
+              ><p class="font text5">Buy</p></a
+            >
+          </div>
+        </div>
+      </div>
+
+      <!-- Link 5 -->
+      <div class="link5 link0">
+        <div class="frame4">
+          <div class="frame1">
+            <div class="frame9">
+              <img src="/SVG.svg" alt="" />
+              <p class="text10 font">WATCH</p>
+            </div>
+            <p class="text11 font">SERIES 10</p>
+            <p class="text1 font">Thinstant classic.</p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+            <a class="portal2" href="./index2.html"
+              ><p class="font text5">Buy</p></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Link 6 -->
+      <div class="link6 link0">
+        <div class="frame4">
+          <div class="frame1">
+            <p class="text10 font">MacBook Air</p>
+            <p class="text1 font">Lean. Mean. M3 machine.</p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+            <a class="portal2" href="./index2.html"
+              ><p class="font text5">Buy</p></a
+            >
+          </div>
+        </div>
+      </div>
+      <!-- Link 7 -->
+      <div class="link7 link0">
+        <div class="frame4 frame8-up">
+          <div class="frame1">
+            <p class="text10 font">Apple for Small Business</p>
+            <p class="text1 font">
+              Hardware, software, and expert help - all in one place.
+            </p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+          </div>
+        </div>
+        <div class="frame7 frame8-down">
+          <div class="frame6">
+            <div class="frame5">
+              <img
+                class="img1"
+                src="/0f41c45d48fa3ab5df93eaee5f9abdd925bc4033.png"
+                alt=""
+              />
+              <div class="frame1">
+                <p class="text8 font">Two sizes. Faster chip. Does it all.</p>
+              </div>
+            </div>
+            <div class="frame2">
+              <p class="font text4">Learn more</p>
+              <a class="portal2" href="./index2.html"
+                ><p class="font text5">Buy</p></a
+              >
+            </div>
+          </div>
+          <p class="text9 font">Hello, Apple Intelligence</p>
+        </div>
+      </div>
+      <!-- Link 8 -->
+      <div class="link8">
+        <div class="frame4 frame8-up position3">
+          <div class="frame1">
+            <p class="text10 font">Carrier deals at Apple</p>
+            <p class="text1 font">
+              Get up to $1000 in credit on a new iPhone. Trade-in may be
+              required.
+            </p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Find your deal</p>
+          </div>
+        </div>
+        <div class="frame8 n2 frame8-down">
+          <div class="frame1">
+            <div class="frame9">
+              <img src="/SVG.svg" alt="" />
+              <p class="text10 font">Card</p>
+            </div>
+            <p class="text1 font">
+              Get up to 3% Daily Cash back with every purchase.
+            </p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Learn more</p>
+            <p class="font text5">Apply now</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Link 9 -->
+      <div class="link9 link0">
+        <div class="frame4">
+          <div class="frame1">
+            <div class="frame10">
+              <img src="/SVG.svg" alt="" />
+              <p class="text10 font">Trade In</p>
+            </div>
+            <p class="text1 font">
+              Get $180–$650 in credit when you trade in iPhone 12 or higher.4
+            </p>
+          </div>
+          <div class="frame2">
+            <p class="font text4">Get your estimate</p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Link 10 -->
+    <div class="link10">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <img class="zuragnuud neg" src="/zurag1.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag2.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag3.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag4.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag5.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag6.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag7.jpg" style="width: 100%" />
+        </div>
+
+        <div class="mySlides fade">
+          <img class="zuragnuud" src="/zurag8.jpg" style="width: 100%" />
+        </div>
+      </div>
+      <div style="text-align: center" class="dotfather">
+        <span class="dot" onclick="currentSlide(1)"></span>
+        <span class="dot" onclick="currentSlide(2)"></span>
+        <span class="dot" onclick="currentSlide(3)"></span>
+        <span class="dot" onclick="currentSlide(4)"></span>
+        <span class="dot" onclick="currentSlide(5)"></span>
+        <span class="dot" onclick="currentSlide(6)"></span>
+        <span class="dot" onclick="currentSlide(7)"></span>
+        <span class="dot" onclick="currentSlide(8)"></span>
+      </div>
+    </div>
+    <div class="link10lap-container">
+      <div class="link10lap">
+        <div class="div1 background1">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Drama</span> · Saoirse Ronan stars in a
+              wartime family epic from director Steve McQueen.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background2">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2"><span class="drama">Sci-Fi</span> · New season.</p>
+          </div>
+        </div>
+        <div class="div1 background3">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Reality</span>· Music icons team up with the
+              hottest K-pop idols for song battles with a major twist.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background4">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Comedy</span>
+              · Seth Rogen and Rose Byrne are old friends who reunite for a
+              hilarious new chapter.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background5">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Thriller </span> · 27 Emmy® Nominations
+              Including Best Drama
+            </p>
+          </div>
+        </div>
+        <div class="div1 background6">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Reality</span> · Music icons team up with the
+              hottest K-pop idols for song battles with a major twist.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background7">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Comedy</span> · Kindness makes a comeback. See
+              the schedule Live MLB games, every Friday.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background8">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Drama</span> · Saoirse Ronan stars in a
+              wartime family epic from director Steve McQueen.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background9">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Live</span> · No future lasts forever.
+            </p>
+          </div>
+        </div>
+        <div class="div1 background10">
+          <div class="frame14">
+            <p class="steam font">Steam now</p>
+            <p class="p2">
+              <span class="drama">Drama</span> · Saoirse Ronan stars in a
+              wartime family epic from director Steve McQueen.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- Footer -->
+    <div class="footer">
+      <div class="slideshow-container">
+        <div class="mySlides fade">
+          <div class="frame11 hemjee">
+            <img src="/foot1.jpg" alt="" />
+            <img src="/SVGmusic.svg" alt="" />
+          </div>
+          <p class="textfooter">La Oficial</p>
+        </div>
+        <div class="mySlides fade">
+          <div class="hemjee">
+            <img src="/foot3.png" alt="" />
+          </div>
+          <p class="textfooter">Travel-Friendly Workouts</p>
+        </div>
+        <div class="mySlides fade">
+          <div>
+            <img class="hemjee" src="/foot4.png" alt="" />
+          </div>
+          <p class="textfooter">NBA 2K25 Arcade Edition</p>
+        </div>
+        <div class="mySlides fade">
+          <div>
+            <img class="hemjee" src="/foot6.png" alt="" />
+          </div>
+          <p class="textfooter">Improve Your Posture wicth Pilates</p>
+        </div>
+        <div class="mySlides fade">
+          <div class="frame12 hemjee">
+            <img class="hemjee2" src="/foot2.jpg" alt="" />
+            <img src="/SVGmusic.svg" alt="" />
+          </div>
+          <p class="textfooter">R&B Now</p>
+        </div>
+        <div class="mySlides fade">
+          <div class="frame13">
+            <img class="hemjee" src="/foot5.png" alt="" />
+          </div>
+          <p class="textfooter">Strength with Kim</p>
+        </div>
+      </div>
+      <div style="text-align: center">
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+        <span class="dot"></span>
+      </div>
+    </div>
+    <div class="footerWEB">
+      <div class="footerweb">
+        <div class="background11 div2"></div>
+        <div class="background12 div2"></div>
+        <div class="background13 div2"></div>
+        <div class="background14 div2"></div>
+        <div class="background11 div2"></div>
+        <div class="background12 div2"></div>
+        <div class="background13 div2"></div>
+        <div class="background14 div2"></div>
+        <div class="background11 div2"></div>
+        <div class="background12 div2"></div>
+        <div class="background13 div2"></div>
+        <div class="background14 div2"></div>
+      </div>
+    </div>
+  </body>
+</html>
